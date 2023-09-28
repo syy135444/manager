@@ -1,11 +1,10 @@
-package com.example.manager;
+package com.syy.manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.syy.manager")
 public class ManagerApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ManagerApplication.class, args);
     }
